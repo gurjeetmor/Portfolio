@@ -33,6 +33,120 @@ a.text-dark:hover, a.text-dark:focus {
     color: #fec503 !important;
 }
 
+/*Home*/
+
+.landing-page {
+    background-image: url("../img/main.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    color: #fff;
+    top: 3.5em;
+    left: 0;
+    right: 0;
+    height: 100%;
+    position: fixed;
+}
+
+.content {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    width: 100%;
+    transform: translate(-50%, -50%);
+}
+
+.name {
+    font-size: 3em;
+    margin-bottom: 20px;
+    font-weight: 700;
+    letter-spacing: 5px;
+}
+
+.job {
+    position: relative;
+    padding: 10px;
+    overflow: hidden;
+    white-space: nowrap;
+    letter-spacing: .10em;
+    animation: 0.99s infinite;
+    
+}
+.typewriter {
+    
+}
+
+
+
+.btn {
+    font-weight: 700;
+}
+
+.btn-xl {
+  font-size: 18px;
+  padding: 10px 30px;
+}
+
+.btn-primary {
+  background-color: #fed136;
+  border-color: #fed136;
+  margin: 10px;
+}
+
+.btn-primary:active, .btn-primary:focus, .btn-primary:hover {
+  background-color: #fec810 !important;
+  border-color: #fec810 !important;
+  color: white;
+}
+
+.btn-primary:active, .btn-primary:focus {
+  -webkit-box-shadow: 0 0 0 0.2rem rgba(254, 209, 55, 0.5) !important;
+  box-shadow: 0 0 0 0.2rem rgba(254, 209, 55, 0.5) !important;
+}
+
+/*About*/
+.about {
+    background-image: url("../img/gurjeet-img.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: calc(100vh - 5em);
+}
+
+ul.social-buttons {
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+ul.social-buttons li a {
+  line-height: 50px;
+  display: block;
+  width: 50px;
+  height: 50px;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+  color: white;
+  border-radius: 100%;
+  outline: none;
+  background-color: #212529;
+}
+
+.list-inline-item {
+    text-align: center;
+}
+
+ul.social-buttons li a:active, ul.social-buttons li a:focus, ul.social-buttons li a:hover {
+  background-color: #fed136;
+}
+
+@media screen and (max-width: 768px) {
+    .about {
+        position: relative;
+        height: 400px;
+    }
+}
+
 /*Experience Timeline Style*/
 
 .timeline {

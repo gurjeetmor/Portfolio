@@ -6,7 +6,12 @@ export class About extends Component {
     render() {
         return (
             <div className="row">
-                <div className="col-md-7">
+                <div className="about col-xs-12 col-sm-12 col-md-6">
+                    <div className="">
+
+                    </div>
+                </div>
+                <div className="col-xs-12 col-sm-12 col-md-6">
                     <p>
                         I am a highly efficient and detail oriented full stack software developer with commercial experience in software and web development.
                         I am currently working as a Full Stack Developer in MVP Studio developing cloud-based web application.
@@ -16,17 +21,34 @@ export class About extends Component {
                     <p>
                         I am actively looking for a Software Developer position. I am committed to growing a career in the local IT industry.
                     </p>
-                </div>
-                <div className="col-md-5">
 
-                    <table>
-                        <tbody>
-                        <tr><td><b>EMAIL:</b></td><td>gurjeet.mor@yahoo.com</td></tr>
-                        <tr><td><b>ADDRESS:</b></td><td>AUCKLAND, NEW ZEALAND</td></tr>
-                            <tr><td><b>LANGUAGE:</b></td><td>ENGLISH, HINDI, PUNJABI</td></tr>
-                        </tbody>
-                    </table>
-
+                    <ul className="list-inline social-buttons">
+                        <li className="list-inline-item">
+                            <a href="https://github.com/gurjeetmor">
+                                <img src={require('../img/phone.svg')} style={{ height: "20px" }} alt="" />
+                            </a>
+                        </li>
+                        <li className="list-inline-item">
+                            <a href="https://github.com/gurjeetmor">
+                                <img src={require('../img/email.svg')} style={{ height: "20px" }} alt=""/>
+                            </a>
+                        </li>
+                        <li className="list-inline-item">
+                            <a href="https://github.com/gurjeetmor">
+                                <img src={require('../img/skype.svg')} style={{ height: "20px" }} alt=""/>
+                            </a>
+                        </li>
+                        <li className="list-inline-item">
+                            <a href="https://github.com/gurjeetmor">
+                                <img src={require('../img/linkedin.svg')} style={{ height: "20px" }} alt=""/>
+                            </a>
+                        </li>
+                        <li className="list-inline-item">
+                            <a href="https://github.com/gurjeetmor">
+                                <img src={require('../img/github.svg')} style={{ height: "20px" }} alt=""/>
+                            </a>
+                        </li>
+                    </ul>
                 </div>
             </div>
         );

@@ -9,7 +9,7 @@ export default class SkillsBar extends Component {
     componentDidMount() {
         setTimeout(() => {
             this.setState({ collapsed: false })
-        }, 3000);
+        }, 500);
     }
 
     render() {

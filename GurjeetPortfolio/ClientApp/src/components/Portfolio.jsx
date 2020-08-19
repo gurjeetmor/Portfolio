@@ -1,11 +1,4 @@
 ﻿import React, { Component } from 'react';
-import stock from "../img/image1.jpg";
-import stock1 from "../img/image2.jpg";
-import stock2 from "../img/image3.jpg";
-import stock3 from "../img/image4.jpg";
-import stock4 from "../img/image5.jpg";
-import stock5 from "../img/image6.jpg";
-
 
 export class Portfolio extends Component {
     static displayName = Portfolio.name;
